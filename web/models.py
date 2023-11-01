@@ -23,8 +23,7 @@ if __name__ == "__main__":
     with app.app_context():
         # c1 = Category(name="Mobile")
         # c2 = Category(name="Tablet")
-        # p1 = Product(name="Iphone 13", price=13000000,image="",category=1)
-        #
-        # db.session.add_all([p1])
-        # db.session.commit()
+        p1 = Product(name="Iphone 13", price=13000000, image="", category_id=1)
+        db.session.add_all([p1])
+        db.session.commit()
         # db.create_all()
