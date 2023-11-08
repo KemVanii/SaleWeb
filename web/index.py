@@ -14,4 +14,5 @@ def index():
 
 
 if __name__ == '__main__':
+    from web import admin
     app.run(debug=True)
